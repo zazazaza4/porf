@@ -1,0 +1,59 @@
+{
+    "mainTitle": "Front-end",
+    "subtitle": "Yaroslav Osmukha",
+    "menu": [
+        {
+            "id": "001",
+            "name": "Home",
+            "route": "home"
+        },
+        {
+            "id": "002",
+            "name": "Projects",
+            "route": "projects"
+        },
+        {
+            "id": "003",
+            "name": "About",
+            "route": "about"
+        },
+        {
+            "id": "004",
+            "name": "Contact Us",
+            "route": "contact"
+        }
+    ],
+    "footerItems": [
+        {
+            "id": "001",
+            "name": "Home",
+            "route": "home",
+            "blank": false
+            
+        },
+        {
+            "id": "002",
+            "name": "About",
+            "route": "about",
+            "blank": false
+        },
+        {
+            "id": "003",
+            "name": "Projects",
+            "route": "projects",
+            "blank": false
+        },
+        {
+            "id": "004",
+            "name": "Contact Us",
+            "route": "https://github.com/zazazaza4",
+            "blank": true
+        },
+        {
+            "id": "005",
+            "name": "More",
+            "route": "https://github.com/zazazaza4?tab=repositories",
+            "blank": true
+        }
+    ]
+}
