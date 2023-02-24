@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
 
-import { aboutImgs, speedImgs, linkImgs } from "../assets/images/about";
+import { aboutImgs } from "../assets/images/about";
 
 const Section = styled.section`
   position: relative;
@@ -163,15 +163,15 @@ export const About: FC = () => {
         everyone.
       </Left>
       <Right>
-        {aboutImgs.map((item, index) => (
+        {aboutImgs.map(({ img, link, speed }, index) => (
           <img
             data-scroll
-            data-scroll-speed={speedImgs[index]}
+            data-scroll-speed={speed}
             className={`small-img-${index}`}
-            onClick={() => handleClick(`${linkImgs[index]}`)}
-            key={item}
-            src={item}
-            title={linkImgs[index]}
+            onClick={() => handleClick(`${link}`)}
+            key={img}
+            src={img}
+            title={link}
             alt="About Us"
           />
         ))}
