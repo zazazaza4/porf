@@ -76,7 +76,7 @@ const pathVariants: Variants = {
   },
   visible: {
     opacity: 1,
-    pathLength: 1,
+    pathLength: 1.1,
     strokeWidth: 0.5,
   },
 };
