@@ -42,7 +42,7 @@ export const Home: FC = () => {
       <NavBar />
       <CoverVideo />
       <LogoContainer>
-        <Logo title="zazazaza4" />
+        <Logo delay={3.5} title="zazazaza4" />
       </LogoContainer>
       <TitleContainer>
         <MainTitle title={data.mainTitle} subtitle={data.subtitle} />
