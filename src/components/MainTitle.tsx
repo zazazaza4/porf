@@ -50,7 +50,7 @@ const containerVariants: Variants = {
     opacity: 1,
 
     transition: {
-      delayChildren: 4.5,
+      delayChildren: 3.5,
       staggerChildren: 0.3,
     },
   },
@@ -81,7 +81,7 @@ export const MainTitle: FC<IMainTitleProps> = ({ title, subtitle }) => {
             key={letter + i}
             variants={itemVariants}
             data-scroll
-            data-scroll-delay={0.3 * (i + 1) * 0.1}
+            data-scroll-delay={0.3 * (i + 1) * 0.04}
             data-scroll-speed="4"
           >
             {letter}
