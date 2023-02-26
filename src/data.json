@@ -9,13 +9,13 @@
         },
         {
             "id": "002",
-            "name": "Projects",
-            "route": "projects"
+            "name": "About",
+            "route": "about"
         },
         {
             "id": "003",
-            "name": "About",
-            "route": "about"
+            "name": "Projects",
+            "route": "projects"
         },
         {
             "id": "004",
