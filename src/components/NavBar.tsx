@@ -128,7 +128,7 @@ export const NavBar: FC = () => {
       open={isOpen}
       initial={{ y: "-100" }}
       animate={{ y: 0 }}
-      transition={{ duration: 4, delay: 4.6 }}
+      transition={{ duration: 2, delay: 3.6 }}
     >
       <MenuItems
         drag="y"
