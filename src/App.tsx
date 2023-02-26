@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { ThemeProvider } from "styled-components";
-import { About, Footer, Home } from "./sections";
+import { About, Banner, Footer, Home, Projects } from "./sections";
 
 import GlobalStyles from "./styles/GlobalStyles";
 import { dark } from "./styles/Themes";
@@ -44,6 +44,8 @@ function App() {
 
               <Home />
               <About />
+              <Projects />
+              <Banner />
               <Footer />
             </main>
           </AnimatePresence>
