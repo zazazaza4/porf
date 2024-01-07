@@ -146,21 +146,13 @@ export const About: FC = () => {
         About Me
       </Title>
       <Left data-scroll data-scroll-target="#about" data-scroll-sticky>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        quod sunt aut cum expedita minus odit dolores obcaecati, exercitationem,
-        in natus illo maxime asperiores blanditiis, quidem facere consectetur
-        cupiditate!
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        quod sunt aut cum expedita minus odit dolores obcaecati, exercitationem,
-        in natus illo
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        quod sunt aut cum expedita minus odit dolores obcaecati, exercitationem,
-        in natus illo We are always looking to make something that is easy for
-        everyone.
+         Hi, I'm Yaroslav, a 20-year-old who enjoys
+                problem-solving and has a good grasp of web development. I'm
+                skilled at coming up with creative solutions, pay close
+                attention to details, I'm passionate about learning web
+                technologies. In my free time, I also love reading programming
+                books to further enhance my knowledge and skills. I'm excited 
+                about taking on new challenges and contributing to meaningful projects.
       </Left>
       <Right>
         {aboutImgs.map(({ img, link, speed }, index) => (
