@@ -163,15 +163,9 @@ export const Projects: FC = () => {
         </Title>
         <Left>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ea
-            labore nisi tempore qui nobis a, aliquam provident cumque beatae quo
-            doloribus. Numquam officiis sint possimus praesentium sapiente
-            voluptas aspernatur?
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ea
-            labore nisi tempore qui nobis a, aliquam provident cumque beatae quo
-            doloribus.
+              JavaScript, React, Redux, Zustand, Node.js, SQL in MySQL, MongoDB,
+              TypeScript, Express, i18next, Webpack, CI/CD(github actions),
+              Testing(Jest), Computer networks
           </p>
         </Left>
         <Right data-scroll ref={horizontalRef}>
